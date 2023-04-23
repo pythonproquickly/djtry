@@ -7,7 +7,7 @@ public_collected/
 
 .coverage
 .dockerignore
-.env*
-!.env.example
+.env
+!.env
 celerybeat-schedule
 docker-compose.override.yml

@@ -147,7 +147,7 @@ cd hellodjango
 #### Copy an example .env file because the real one is git ignored:
 
 ```sh
-cp .env.example .env
+cp .env .env
 ```
 
 #### Build everything:
@@ -164,7 +164,7 @@ Now that everything is built and running we can treat it like any other Django
 app.
 
 Did you receive an error about a port being in use? Chances are it's because
-something on your machine is already running on port 8000. Check out the docs
+something on your machine is already running on port 8008. Check out the docs
 in the `.env` file for the `DOCKER_WEB_PORT_FORWARD` variable to fix this.
 
 Did you receive a permission denied error? Chances are you're running native
@@ -183,7 +183,7 @@ variables to fix this.
 
 #### Check it out in a browser:
 
-Visit <http://localhost:8000> in your favorite browser.
+Visit <http://localhost:8008> in your favorite browser.
 
 #### Linting the code base:
 

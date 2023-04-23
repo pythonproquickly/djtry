@@ -8,8 +8,8 @@ public/*
 public_collected/*
 !public_collected/.keep
 
-.env*
-!.env.example
+.env
+!.env
 docker-compose.override.yml
 
 
